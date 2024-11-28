@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> Bài tập 1: Tính tiền lương nhân viên </h3><br>
+    <form id="salaryForm">
+        <label for="salary">Nhập lương một ngày:</label>
+        <input type="number" id="salary" name="salary" >
+        <label for="date">Số ngày làm:</label>
+        <input type="number" id="date" name="date" ><br><br>
+        <input type="button" value="Tính lương" onclick="calculateSalary()"><br><br>
+    </form>
+    <h3 id ="result1">Lương nhân viên: </h3><br>
+
+    <h3> Bài tập 2: Tính giá trị trung bình </h3><br>
+    <form id="averageForm">
+        <label for="number1">Nhập số thứ 1:</label>
+        <input type="number" id="number1" name="number1" >
+        <label for="number2">Nhập số thứ 2:</label>
+        <input type="number" id="number2" name="number2" >
+        <label for="number3">Nhập số thứ 3:</label>
+        <input type="number" id="number3" name="number3" >
+        <label for="number4">Nhập số thứ 4:</label>
+        <input type="number" id="number4" name="number4" >
+        <label for="number5">Nhập số thứ 5:</label>
+        <input type="number" id="number5" name="number5" ><br><br>
+        <input type="button" value="Tính trung bình" onclick="average()"><br><br>
+    </form>
+    <h3 id ="result2">Giá trị trung bình: </h3><br>
+
+    <h3> Bài tập 3: Quy đổi tiền </h3><br>
+    <form id="redeemForm">
+        <label for="money">Nhập số tiền USD:</label>
+        <input type="number" id="money" name="money" ><br><br>
+        <input type="button" id="tien" value="Quy đổi tiền" onclick="redeemMoney()"><br><br>
+    </form>
+    <h3 id ="result3">Số tiền: </h3><br>
+
+    <h3> Bài tập 4: Tính diện tích, chu vi hình chữ nhật </h3><br>
+    <form id="calculateForm">
+        <label for="chieudai">Nhập chiều dài:</label>
+        <input type="number" id="chieudai" name="chieudai" >
+        <label for="chieurong">Nhập chiều rộng:</label>
+        <input type="number" id="chieurong" name="chieurong" ><br><br>
+        <input type="button" value="Tính" onclick="calculateArea()"><br><br>
+    </form>
+    <h3 id ="result4">Diện tích: , Chu vi: </h3>
+    
+    <h3> Bài tập 5: Tính tổng 2 ký số </h3><br>
+    <form id="sumForm">
+        <label for="numbers">Nhập số có 2 chữ số:</label>
+        <input type="number" id="numbers" name="numbers" ><br><br>
+        <input type="button" value="Tính tổng" onclick="sumNumber()"><br><br>
+    </form>
+    <h3 id ="result5">Tổng các chữ số: </h3>
+
+    <script src="./index.js"></script>
+</body>
+</html>
